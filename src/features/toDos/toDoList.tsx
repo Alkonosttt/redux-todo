@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { connect } from "react-redux";
 import './toDoListStyles.css';
 
 
-export default function ToDoList () {
+function ToDoList () {
     const [toDo, setToDo] = useState("");
     const handleChange = (e) => {
         setToDo(e.target.value);
@@ -29,3 +30,4 @@ export default function ToDoList () {
     );
 };
 
+export default connect(null,null)(ToDoList);
