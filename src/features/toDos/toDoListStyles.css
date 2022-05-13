@@ -6,3 +6,23 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+
+.toDoTabButtons > button {
+    height: 5vh;
+    width: 5vw;
+    font-size: medium;
+    border-color: transparent;
+}
+
+.toDoTabButtons > button.selected {
+    background-color: aquamarine;
+}
+
+.toDoTaskList {
+    font-size: large;
+    text-align: left;
+}
+
+.strike {
+    text-decoration: line-through;
+}
