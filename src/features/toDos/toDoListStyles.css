@@ -26,3 +26,20 @@
 .strike {
     text-decoration: line-through;
 }
+
+.addToDoWrapper {
+    padding-bottom: 1vh;
+}
+
+.addToDoTextField {
+    height: 3vh;
+    width: 10vw;
+    font-size: medium;
+}
+
+.addToDoButton {
+    height: 3.5vh;
+    width: 5vw;
+    font-size: medium;
+    border-color: transparent;
+}
